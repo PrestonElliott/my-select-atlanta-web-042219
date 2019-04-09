@@ -3,7 +3,7 @@ def my_select(array)
   new_array =[]
   while i < array.length
     if yield(array[i])
-      select << array[i]
+      new_array << array[i]
     end
     i += 1
   end
