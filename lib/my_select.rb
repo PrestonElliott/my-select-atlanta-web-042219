@@ -9,4 +9,3 @@ def my_select(array)
   end
   new_array
 end
-
